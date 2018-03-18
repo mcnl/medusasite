@@ -42,189 +42,177 @@
     Header
   ============================-->
   <header id="header">
-    <div class="container-fluid">
+    <div class="container-flex">
 
       <div id="logo" class="pull-left">
-        <a href="#intro"><img class="lg" src="img/logo.svg" alt="" title="" /></a>
+        <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="menu-active"><a href="#intro">Início</a></li>
+          <li><a href="#services">Serviços</a></li>
+        
+          <li><a href="#clients">Clientes</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li><a href="#">Documentação</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
 
   <!--==========================
-    Intro Section
+    Intro div
   ============================-->
-  <section id="intro">
-    <div class="intro-container">
+<!-- #intro -->
 
+  <div id="main">
+    <div id="intro">
+      <div class="intro-container ">
+        
+        <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <div class="carousel-background"></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <div class="container" >
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6   align-self-center">  
+                      <h3>Monitoramento inteligente automatizado </h3>
+                       <p class="int">Garanta a segurança da sua empresa<br> e otimize seu sistema de monitoramento<br> com o Aegis.</p>
+                       <a class="btn btn-warning" href="#services" style="padding-left: 40px;margin-left: 48px;padding-right: 40px;">Veja aqui</a>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-xs-12 image-container  align-self-center">
+                      <a href="#intro""><img src="img/romano.svg" alt="Responsive image" title=""  style="padding-top: 60px;"/></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+     
+
+      </div>
     </div>
-  </section><!-- #intro -->
+       
+      </div>
+    </div>
 
-  <main id="main">
-
-
-    <!--==========================
-      About Us Section
+      <!--==========================
+      About Us div
     ============================-->
    
     <!--==========================
-      Services Section
+      Services div
     ============================-->
-    <section id="services">
+    <div id="services">
       <div class="container">
 
-        <header class="section-header wow fadeInUp">
-          <h3>Services</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
+        <header class="div-header wow fadeInUp">
+          <h3>Serviços</h3>
+          <p></p>
         </header>
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          <div class="col box wow bounceInUp " data-wow-duration="1.4s">
+            
+            <h4 class="title">Monitoramento</h4>
+            <p class="description">Pelo Aegis, sua empresa monitora e registra todas solicitações de entrada em locais especiais.</p>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          <div class="col box wow bounceInUp" data-wow-duration="1.4s">
+            
+            <h4 class="title">Segurança</h4>
+            <p class="description">Garanta o uso de uniformes e equipamento necessários através de um sistema automatizado de reconhecimento por câmeras.</p>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+  
+          <div class="col box wow bounceInUp" data-wow-duration="1.4s">
+            
+            <h4 class="title">Análise de dados</h4>
+            <p class="description">Utilize os relatórios gerados pelos registros feitos pelo monitoramento da Aegis para criar soluções de segurança.</p>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-people-outline"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          <div class="col box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            
+            <h4 class="title">Integração</h4>
+            <p class="description">Use nosso sistema nas mais diversas funcionalidades presentes na sua empresa.</p>
           </div>
 
         </div>
 
       </div>
-    </section><!-- #services -->
+    </div><!-- #services -->
 
     <!--==========================
-      Call To Action Section
+      Call To Action div
     ============================-->
-    <section id="call-to-action" class="wow fadeIn">
+   <!--  <div id="call-to-action" class="wow fadeIn">
       <div class="container text-center">
-        <h3>Call To Action</h3>
-        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a class="cta-btn" href="#">Call To Action</a>
+        
+          
+        
+        <h3 id="h3-left">Mantenha-se atualizado</h3>
+        <p id="p-left">Receba os melhores conteúdos sobre a segurança e tecnologia de monitoramento.</p>
+        <form id="form-left" action="" method="post">
+              <input id="input-left" type="email" name="email"><input type="submit"  value="Subscribe">
+        </form>
       </div>
-    </section><!-- #call-to-action -->
+     
+    </div> -->
+    <!-- #call-to-action -->
 
     <!--==========================
-      Facts Section
+      Facts div
     ============================-->
-    <section id="facts"  class="wow fadeIn">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Facts</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </header>
-
-        <div class="row counters">
-
-  				<div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">274</span>
-            <p>Clients</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">421</span>
-            <p>Projects</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1,364</span>
-            <p>Hours Of Support</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">18</span>
-            <p>Hard Workers</p>
-  				</div>
-
-  			</div>
-
-        <div class="facts-img">
-          <img src="img/facts-img.png" alt="" class="img-fluid">
-        </div>
-
-      </div>
-    </section><!-- #facts -->
+    
 
     
 
     <!--==========================
-      Clients Section
+      Clients div
     ============================-->
-    <section id="clients" class="wow fadeInUp">
+    <div id="clients">
       <div class="container">
-
-        <header class="section-header">
-          <h3>Our Clients</h3>
-        </header>
-
-        <div class="owl-carousel clients-carousel">
-          <img src="img/clients/client-1.png" alt="">
-          <img src="img/clients/client-2.png" alt="">
-          <img src="img/clients/client-3.png" alt="">
-          <img src="img/clients/client-4.png" alt="">
-          <img src="img/clients/client-5.png" alt="">
-          <img src="img/clients/client-6.png" alt="">
-          <img src="img/clients/client-7.png" alt="">
-          <img src="img/clients/client-8.png" alt="">
+        <h3>Clientes</h3>
+        <div class="row">
+          <div class="col">
+            <img src="img/logo_citi.png" alt="" style="">
+          </div>
+          <div class="col">
+            <img src="img/logo_stone.png" alt="" style="">
+          </div>
+          <div class="col">
+            <img src="img/logo_portodigital.png" alt="" style="">
+          </div>
         </div>
-
+        <div class="row" style="padding-top: 50px">
+          <div class="col">
+            <img src="img/logo_avantia.png" alt="" style="">
+          </div>
+          <div class="col">
+            <img src="img/logo_liferay.png" alt="" style="">
+          </div>
+          <div class="col"> 
+            <img src="img/logo_informa.png" alt="" style="">
+          </div>
+        </div>
       </div>
-    </section><!-- #clients -->
 
+</div>
    
-
-
     <!--==========================
-      Contact Section
+      Contact div
     ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
+    <div id="contact" class="div-bg wow fadeInUp">
       <div class="container">
 
-        <div class="section-header">
-          <h3>Contact Us</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        <div class="div-header">
+          <h3>Contato</h3>
         </div>
 
         <div class="row contact-info">
@@ -232,16 +220,16 @@
           <div class="col-md-4">
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
+              <h3>Endereço</h3>
+              <address><a href="https://www.google.com.br/maps/place/Apolo+235/@-8.0606749,-34.8741043,17z/data=!3m1!4b1!4m5!3m4!1s0x7ab18a3179eebef:0x9572e000e5ec9592!8m2!3d-8.0606749!4d-34.8719156">Rua Apolo 235, Recife Antigo, Recife, Pernambuco, Brasil</a></address>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+              <h3>Telefone</h3>
+              <p><a href="tel:+5508134198100">+55 (81) 3419-8100</a></p>
             </div>
           </div>
 
@@ -249,7 +237,7 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="mailto:contato@medusa.io">contato@medusa.io</a></p>
             </div>
           </div>
 
@@ -261,105 +249,36 @@
           <form action="" method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validation"></div>
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Mensagem" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            <div class="text-center"><button type="submit">Enviar</button></div>
           </form>
         </div>
 
       </div>
-    </section><!-- #contact -->
+    </div><!-- #contact -->
 
-  </main>
+  </div>
 
-  <!--==========================
-    Footer
-  ============================-->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>BizPage</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
-
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit"  value="Subscribe">
-            </form>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-        -->
-        Best <a href="https://bootstrapmade.com/">Bootstrap Templates</a> by BootstrapMade
-      </div>
-    </div>
-  </footer><!-- #footer -->
+ 
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
+</script>
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
